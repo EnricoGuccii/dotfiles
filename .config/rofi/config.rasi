@@ -9,14 +9,13 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #1e1e2e66;
-  bg-alt: #585b7066;
-  bg-selected: #31324466;
+  bg: #0f0f1a99; 
+  bg-alt: #1b1b2f99; 
+  bg-selected: #25263d99; 
 
-  fg: #cdd6f4;
-  fg-alt: #7f849c;
+  fg: #d0d0e0; 
+  fg-alt: #a0a0b0; 
 
-  
   border: 0;
   margin: 0;
   padding: 0;
@@ -26,6 +25,8 @@ configuration {
 window {
   width: 30%;
   background-color: @bg;
+  
+  blur: 10;
 }
 
 element {
