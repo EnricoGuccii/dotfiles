@@ -2,19 +2,19 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "JetBrainsMono Nerd Font Medium 10";
+  font: "JetBrainsMono Nerd Font 11";
   modi: "window,drun";
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #0f0f1a99; 
-  bg-alt: #1b1b2f99; 
-  bg-selected: #25263d99; 
+  bg: #C4C4C4;
+  bg-alt: #5F5F5F; 
+  bg-selected: #E7E7E7; 
 
-  fg: #d0d0e0; 
-  fg-alt: #a0a0b0; 
+  fg: #111111; 
+  fg-alt: #5F5F5F; 
 
   border: 0;
   margin: 0;
