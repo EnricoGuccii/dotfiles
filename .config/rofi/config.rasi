@@ -27,6 +27,7 @@ window {
   background-color: @bg;
   
   blur: 10;
+  border: 2px solid;
 }
 
 element {
