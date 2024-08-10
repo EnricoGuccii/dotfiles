@@ -1,0 +1,43 @@
+
+[global]
+    geometry = "300x70-20+20"      
+    timeout = 10                   
+    font = "Monospace 10"          
+    frame_width = 2                
+    background = "#212121"         
+    foreground = "#ffffff"         
+    separator_height = 2           
+    separator_color = "#ffffff"    
+
+[frame]
+    width = 0                      
+    color = "#212121"              
+
+[urgency_low]
+    background = "#000000"         
+    foreground = "#ffffff"         
+    timeout = 10                   
+
+[urgency_normal]
+    background = "#212121"         
+    foreground = "#ffffff"         
+    timeout = 10                   
+
+[urgency_critical]
+    background = "#fbc02d"         
+    foreground = "#000000"         
+    timeout = 0                    
+
+[notification]
+    border_color = "#212121"       
+    border_width = 2               
+    padding = 10                   
+    margin = 10                    
+    icon_position = left           
+
+[theme]
+    background = "#212121"         
+    foreground = "#ffffff"         
+    font = "JetBrainsMono Nerd Font"          
+    frame_width = 2                
+    frame_color = "#212121"        
