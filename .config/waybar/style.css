@@ -1,7 +1,7 @@
 @define-color foreground #eff0f1;
 @define-color foreground-inactive #7f8c8d;
-@define-color background #232629;
-@define-color background-alt #31363b;
+@define-color background #101010;
+@define-color background-alt #424242;
 
 * {
   font-family: JetBrainsMono Nerd Font;
@@ -13,6 +13,7 @@
 #waybar {
   color: @foreground;
   background-color: @background;
+  border-bottom: 2px solid @background-alt;
 }
 
 #workspaces button {
@@ -29,10 +30,10 @@
   border-radius: 3px;
 }
 
+#mpris,
 #wireplumber,
 #bat,
 #tray,
-#usage,
 #net {
   background-color: @background-alt;
   border-radius: 3px;
@@ -42,8 +43,6 @@
 }
 
 #battery,
-#memory,
-#language,
 #network {
   margin-right: 0.8em;
 }

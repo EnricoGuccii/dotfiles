@@ -4,7 +4,7 @@
     "height": 24,
     "spacing": 5,
 
-    "modules-left": ["hyprland/workspaces", "group/usage"],
+    "modules-left": ["mpris", "hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["wireplumber", "group/bat", "group/net", "tray"],
 
@@ -21,22 +21,8 @@
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
-        "format-icons": {
-            "1": "\uf489",
-            "2": "\udb80\ude39",
-            "3": "\udb82\ude1e",
-            "4": "\uf001",
-            "5": "\ue217",
-        },
         "icon-size": 50,
         "sort-by-number": true,
-        "persistent-workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-        }
     },
 
     "clock": {
@@ -50,7 +36,7 @@
     },
 
     "battery": {
-        "bat": "BAT1",
+        "bat": "BAT0",
         "interval": 60,
         "format": "{icon}  {capacity}%",
         "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
@@ -83,5 +69,16 @@
     "tray": {
         "icon-size": 16,
         "spacing": 16
+    },
+
+   "mpris": {
+        "player": "spotify",
+        "format": "{status_icon}|{artist} - {title}",
+        "max-length": 50,
+        "status-icons": {
+             "playing": " ",
+             "paused": " ",
+             "stopped": ""
+        }
     }
 }
