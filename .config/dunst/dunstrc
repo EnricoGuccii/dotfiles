@@ -1,16 +1,16 @@
-
 [global]
     geometry = "300x70-20+20"      
     timeout = 10                   
-    font = "Monospace 10"          
+    font = "JetBrainsMono Nerd Font 10"          
     frame_width = 2                
     background = "#212121"         
     foreground = "#ffffff"         
     separator_height = 2           
     separator_color = "#ffffff"    
+    icon_position = "left"         
 
 [frame]
-    width = 0                      
+    width = 2                      
     color = "#212121"              
 
 [urgency_low]
@@ -28,16 +28,3 @@
     foreground = "#000000"         
     timeout = 0                    
 
-[notification]
-    border_color = "#212121"       
-    border_width = 2               
-    padding = 10                   
-    margin = 10                    
-    icon_position = left           
-
-[theme]
-    background = "#212121"         
-    foreground = "#ffffff"         
-    font = "JetBrainsMono Nerd Font"          
-    frame_width = 2                
-    frame_color = "#212121"        
