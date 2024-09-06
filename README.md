@@ -22,6 +22,5 @@
     Kitty
     LSD
     Neovim (nvchad)
-    
-Font: JetBrains Mono Nerd Font
-GTK Theme: Graphite GTK Theme by Vinceliuice
+    JetBrains Mono Nerd Font
+
