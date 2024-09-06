@@ -30,9 +30,11 @@
     },
 
     "wireplumber": {
-        "format": "\udb81\udd7e  {volume}%",
+        "format": "{volume}% 󰕾",
+        "format-muted": "󰖁",  
         "max-volume": 100,
-        "scroll-step": 5
+        "scroll-step": 5,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle" 
     },
 
     "battery": {
