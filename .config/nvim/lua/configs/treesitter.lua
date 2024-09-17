@@ -16,6 +16,8 @@ local options = {
     "python",
     "hyprlang",
     "css",
+    "html",
+    "javascript",
   },
 
   highlight = {
