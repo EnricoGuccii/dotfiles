@@ -5,6 +5,7 @@ lint.linters_by_ft = {
   python = { "flake8" },
   javascript = { "quick-lint-js" },
   html = { "htmlhint" },
+  swift = { "swiftlint" },
 }
 
 lint.linters.luacheck.args = {

@@ -8,6 +8,7 @@ local options = {
     c = { "clang_format" },
     cpp = { "clang_format" },
     python = { "yapf" },
+    swift = { "swiftformat" },
   },
 
   format_on_save = {

@@ -18,6 +18,7 @@ local options = {
     "css",
     "html",
     "javascript",
+    "swift",
   },
 
   highlight = {
