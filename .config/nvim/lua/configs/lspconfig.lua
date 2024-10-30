@@ -74,3 +74,21 @@ lspconfig.sourcekit.setup {
   capabilities = capabilities,
   root_dir = lspconfig.util.root_pattern("Package.swift", ".git", "project.pbxproj"),
 }
+
+lspconfig.intelephense.setup {
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  filetypes = { "php" },
+  root_dir = lspconfig.util.root_pattern("composer.json", ".git", "index.php"),
+  settings = {
+    intelephense = {
+      format = {
+        enable = true,
+      },
+      diagnostics = {
+        enable = true,
+      },
+    },
+  },
+}

@@ -19,6 +19,7 @@ local options = {
     "html",
     "javascript",
     "swift",
+    "php",
   },
 
   highlight = {
@@ -31,9 +32,9 @@ local options = {
 
 require("nvim-treesitter.configs").setup(options)
 
-vim.cmd([[
+vim.cmd [[
   autocmd BufRead,BufNewFile *.conf set filetype=hyprlang
-]])
+]]
 
 -- vim.cmd([[
 --   autocmd BufRead,BufNewFile set filetype=hyprlang
